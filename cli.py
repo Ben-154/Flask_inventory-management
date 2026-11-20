@@ -80,7 +80,7 @@ def cmd_update(args):
     if args.brand:
         payload["brands"] = args.brand
 
-  if not payload:
+    if not payload:
         print("Nothing to update.", file=sys.stderr)
         sys.exit(1)
 
